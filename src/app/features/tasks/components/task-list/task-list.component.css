@@ -1,0 +1,239 @@
+.task-wrapper {
+  background: #f4f6f9;
+}
+
+.record-count {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.search-input {
+  height: 30px;
+  padding: 0 8px;
+  border: 1px solid #d8dde6;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.slds-table {
+  background: #ffffff;
+  border: 1px solid #d8dde6;
+}
+
+.slds-table th {
+  background: #f4f6f9;
+  font-size: 12px;
+  font-weight: 600;
+  color: #5c6b73;
+}
+
+.slds-table td {
+  font-size: 13px;
+}
+
+.link {
+  color: #1b75d0;
+  cursor: pointer;
+}
+
+.action-btn {
+  background: #ffe8a1;
+  border: 1px solid #f5d76e;
+  padding: 3px 8px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.action-btn.delete {
+  background: #d9534f;
+  color: #fff;
+  border-color: #c9302c;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: #f4f6f9;
+  border: 1px solid #d8dde6;
+  border-top: none;
+}
+
+.table-footer select {
+  height: 28px;
+  font-size: 12px;
+}
+
+.pagination button {
+  background: #ffffff;
+  border: 1px solid #d8dde6;
+  padding: 3px 8px;
+  font-size: 12px;
+  margin: 0 2px;
+}
+
+.page-number {
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.delete-modal {
+  max-width: 500px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.delete-header {
+  background: #c83e3a;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.delete-body {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.delete-footer {
+  background: #f4f6f9;
+  text-align: right;
+}
+
+.btn-no {
+  background: #6c8b8e;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+}
+
+.btn-yes {
+  background: #ffe8a1;
+  border: 1px solid #f5d76e;
+  padding: 6px 14px;
+  margin-left: 8px;
+}
+
+.action-cell {
+  position: relative;
+}
+
+.action-menu {
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  background: #fff;
+  border: 1px solid #d8dde6;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 10;
+  width: 90px;
+}
+
+.dropdown div {
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.dropdown div:hover {
+  background: #f4f6f9;
+}
+
+.dropdown .danger {
+  color: #c83e3a;
+}
+
+.action-menu:hover .dropdown {
+  display: block;
+}
+
+.page-size-spinner {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8dde6;
+  background: #ffffff;
+  height: 28px;
+}
+
+.page-size-spinner input {
+  width: 40px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  outline: none;
+}
+
+.spinner-buttons {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #d8dde6;
+}
+
+.spinner-buttons button {
+  width: 20px;
+  height: 14px;
+  border: none;
+  background: #f4f6f9;
+  font-size: 9px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.spinner-buttons button:hover {
+  background: #e5e7eb;
+}
+
+.route-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 900;
+}
+
+.route-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.slds-modal {
+  position: relative;
+}
+
+.slds-modal__container {
+  width: 700px;
+  max-width: 95vw;
+  max-height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.slds-modal__content {
+  overflow-y: auto;
+  max-height: calc(90vh - 120px);
+}
+
+/* Force delete modal to center of screen */
+.slds-modal.slds-fade-in-open {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+  z-index: 9999;
+}
+

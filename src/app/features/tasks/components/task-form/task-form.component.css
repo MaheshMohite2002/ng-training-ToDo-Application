@@ -1,0 +1,78 @@
+:host {
+  display: block;
+  background: #f4f6f9;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.slds-button_brand {
+  background: #ffe8a1;
+  border: 1px solid #f5d76e;
+  color: #2e2e2e;
+  font-size: 13px;
+  padding: 6px 14px;
+}
+
+.slds-table {
+  background: #ffffff;
+  border: 1px solid #d8dde6;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.slds-table thead {
+  background: #f4f6f9;
+}
+
+.slds-table th {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5c6b73;
+}
+
+.slds-table td {
+  font-size: 13px;
+  color: #2e2e2e;
+}
+
+.slds-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.slds-button_neutral {
+  background: #ffe8a1;
+  border: 1px solid #f5d76e;
+  color: #2e2e2e;
+  font-size: 12px;
+}
+
+.slds-button_destructive {
+  background: #d9534f;
+  border: 1px solid #c9302c;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* Required red star */
+.required {
+  color: red;
+  margin-left: 4px;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 1px solid red;
+}

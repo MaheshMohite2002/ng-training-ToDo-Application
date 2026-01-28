@@ -37,8 +37,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
+  "node_modules/@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.min.css",
+  "src/styles.css"
+],
             "scripts": []
           },
           "configurations": {
@@ -95,8 +96,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
+  "node_modules/@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.min.css",
+  "src/styles.css"
+],
             "scripts": []
           }
         }
